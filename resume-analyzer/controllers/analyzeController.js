@@ -1,4 +1,4 @@
-const extractText = require("../utils/pdfParser");
+const extractText = require("../utils/pdfparser");
 const analyzeWithGemini = require("../services/geminiservices");
 
 async function analyzeResume(req, res) {
