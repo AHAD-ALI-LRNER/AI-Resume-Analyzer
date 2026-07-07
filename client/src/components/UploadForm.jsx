@@ -58,7 +58,7 @@ if (!jobDescription.trim()) {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/analyze",
+        "https://ai-resume-analyzer-0cl3.onrender.com/analyze",
         formData
       );
 
